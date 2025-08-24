@@ -1,0 +1,17 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Subprogram MODULS.
+/**
+/** :author fmarques
+/* TODO Enter your code here
+
+DEFINE DATA PARAMETER
+    USING MODULD      /* PARAMETER DATA AREAS
+END-DEFINE
+
+/* SUBPROGRAM
+
+COMPRESS 'GREETINGS' NAME 'THE TIME IS NOW' *TIMX INTO GREETING
+END

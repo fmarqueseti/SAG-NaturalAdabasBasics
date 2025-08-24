@@ -1,0 +1,15 @@
+DEFINE DATA PARAMETER
+/* >Natural Source Header 000000
+/* :Mode S
+/* :CP
+/* <Natural Source Header
+/** New Parameter Data Area MODULD.
+/**
+/** :author fmarques
+/* TODO Enter your data definitions here
+
+/* PARAMETER DATA AREA
+
+1 NAME     (A) DYNAMIC /* INPUT NAME
+1 GREETING (A) DYNAMIC /* OUTPUT FULL GREETING
+END-DEFINE

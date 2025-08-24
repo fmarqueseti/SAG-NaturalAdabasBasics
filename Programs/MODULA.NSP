@@ -1,0 +1,22 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program MODULA.
+/**
+/** :author fmarques
+/* TODO Enter your code here
+
+/* MODULARIZATION AND SUBPROGRAMS MAIN FILE
+
+DEFINE DATA LOCAL
+    USING MODULD      /* PARAMETER DATA AREAS
+END-DEFINE
+
+MOVE 'FABIO MARQUES' TO NAME
+
+CALLNAT "MODULS" NAME GREETING /* CALL SUBPROGRAM
+
+PRINT GREETING
+
+END

@@ -1,0 +1,46 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program LOOPPR.
+/**
+/** :author fmarques
+/* TODO Enter your code here
+
+/* LOOP PROCESSING
+
+DEFINE DATA
+    LOCAL
+1 IX        (I2)    /* INTERATOR
+1 ROOT      (N1.16) /* TEMPORARY VARIABLE
+*
+1 STOP-LOOP (L)     /* LOGICAL (OR BOOLEAN) VARIABLE
+END-DEFINE
+
+* FOR IX := 1 TO 10
+*     ROOT := SQRT(IX)
+*     WRITE IX ROOT
+* END-FOR
+
+* REPEAT
+*     WHILE STOP-LOOP = FALSE
+*     WRITE "I'M IN THE LOOP"
+*     MOVE TRUE TO STOP-LOOP
+* /*    IGNORE
+* END-REPEAT
+
+* REPEAT
+*     WRITE "I'M IN THE LOOP"
+*     MOVE TRUE TO STOP-LOOP
+*     UNTIL STOP-LOOP = TRUE
+* END-REPEAT
+
+REPEAT
+    WRITE "I'M IN THE LOOP"
+    MOVE TRUE TO STOP-LOOP
+    IF STOP-LOOP = TRUE
+        ESCAPE BOTTOM
+    END-IF
+END-REPEAT
+
+END

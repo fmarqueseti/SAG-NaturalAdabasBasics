@@ -1,0 +1,24 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program IMPORT.
+/**
+/** :author fmarques
+/* TODO Enter your code here
+
+/* IMPORTED DATA FIELDS FROM DATA DEFINITION MODULE EMPLOYEES
+
+DEFINE DATA 
+    LOCAL
+1 EMPLOYEE VIEW OF EMPLOYEES
+    2 PERSONNEL-ID (A8)  /*CNNNNNNN
+    2 FIRST-NAME   (A20) /*FIRST NAME
+    2 NAME         (A20) /*SURNAME/FAMILY NAME   
+END-DEFINE
+
+READ EMPLOYEE
+    DISPLAY EMPLOYEE
+END-READ
+
+END

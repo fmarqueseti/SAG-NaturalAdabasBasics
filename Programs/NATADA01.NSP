@@ -1,0 +1,25 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program NATADA01.
+/**
+/** :author fmarques
+/* TODO Enter your code here
+
+/* WRITE 'HELLO WORLD!'
+
+/* VWEM = APELIDO DADO A VIEW (TABELA)
+DEFINE DATA LOCAL
+1 VWEM VIEW OF EMPLOYEES
+    2 NAME
+    2 BIRTH
+END-DEFINE
+
+/* READ = LER REGISTROS DA TABELA VWEM
+READ VWEM
+    /* DISPLAY MOSTRA REGISTROS
+    DISPLAY VWEM 
+END-READ
+
+END

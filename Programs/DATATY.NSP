@@ -1,0 +1,27 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program DATATY.
+/**
+/** :author fmarques
+/* TODO Enter your code here
+
+/* DATA TYPES
+
+DEFINE DATA
+    LOCAL
+1 EMPLOYEE
+    2 NAME   (A30)
+    2 AGE    (I2)
+    2 SALARY (N7.2)
+END-DEFINE
+
+MOVE 'FABIO MARQUES' TO NAME
+AGE    := 45
+SALARY := 100000
+
+WRITE 'HELLO ' NAME
+WRITE 'AGE ' AGE 'SALARY ' SALARY
+
+END
