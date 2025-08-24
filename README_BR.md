@@ -27,7 +27,7 @@ Este repositório contém exemplos, programas de treinamento e componentes de ap
 - [**ADABAS**](https://github.com/fmarqueseti/SAG-NaturalAdabasBasics/blob/main/Programs/ADABAS.NSP) - Acesso e consulta ao banco de dados Adabas.
 - [**DBUPDA**](https://github.com/fmarqueseti/SAG-NaturalAdabasBasics/blob/main/Programs/DBUPDA.NSP) - Atualização de dados e transações no Adabas.
 - [**MODULA**](https://github.com/fmarqueseti/SAG-NaturalAdabasBasics/blob/main/Programs/MODULA.NSP) - Modularização e arquivo principal de subprogramas.
-- [**MODULD**](https://github.com/fmarqueseti/SAG-NaturalAdabasBasics/blob/main/Parameter Data Areas/MODULD.NSP) - Área de dados de parâmetros.
+- [**MODULD**](https://github.com/fmarqueseti/SAG-NaturalAdabasBasics/blob/main/Parameter%20Data%20Areas/MODULD.NSP) - Área de dados de parâmetros.
 - [**MODULS**](https://github.com/fmarqueseti/SAG-NaturalAdabasBasics/blob/main/Subprograms/MODULS.NSP) - Subprograma reutilizável.
 
 ## 🎯 Objetivo
